@@ -7,7 +7,10 @@ explorar, visualizar e analisar dados abertos do governo brasileiro.
 
 import os
 import streamlit as st
-from src.api import transparencia, dados_gov
+import sys
+# Adicionar o diretório atual ao path do Python
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+from src.api import TransparenciaAPI, DadosGovAPI
 
 # Configuração da página
 st.set_page_config(
