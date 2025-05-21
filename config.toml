@@ -1,0 +1,17 @@
+"""
+Arquivo de configuração para a aplicação Streamlit.
+"""
+
+[theme]
+primaryColor = "#4e8df5"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730"
+font = "sans serif"
+
+[server]
+enableCORS = true
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
