@@ -7,7 +7,7 @@ explorar, visualizar e analisar dados abertos do governo brasileiro.
 
 import os
 import streamlit as st
-from src.api import TransparenciaAPI, DadosGovAPI
+from src.api import transparencia, dados_gov
 
 # Configuração da página
 st.set_page_config(
