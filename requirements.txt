@@ -26,6 +26,10 @@ openai>=1.3.0
 tqdm>=4.65.0
 openpyxl>=3.1.0
 
+# Fontes
+TransparenciaAPI
+DadosGovAPI
+
 # Nota: Os seguintes pacotes foram removidos devido a incompatibilidades com Python 3.13
 # no ambiente do Streamlit Cloud. Eles podem ser instalados manualmente em ambientes compatíveis:
 # - tensorflow>=2.12.0
